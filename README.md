@@ -52,7 +52,7 @@ This should just prevent treading on each others toes, and loss of work etc.
 - Do not `git push --force`! People can and will lose work this way.
 - Create your own named folder inside this repo to reflect your name, for example `bob`. From there you can structure it however you like, and create your own README.md that can be linked to the [contributors](#contributors) section below.
 - Use a `.gitignore` file locally within your own folder. `.gitignore` files are applied to the directory they are in, and any subdirectories below that. Because there will be lots of additions to the `.gitignore` file with each language people use, having them within your own folder means they can be customised to the languages you are using much easier. GitHub maintains a [repo of .gitignore templates](https://github.com/github/gitignore) if you need some inspiration.
-- There is a `.gitignore` in the root of the repo, which contains the `.gitignore` templates for various common IDE's (Visual Studio, VSCode, JetBrains etc.). If your IDE needs some `.gitignore` settings, it should be added here to ensure any dotfiles your IDE generates when you open the repo are ignored, as these are usually placed in the root. 
+- There is a `.gitignore` in the root of the repo, which contains the `.gitignore` templates for various common IDE's (Visual Studio, VSCode, JetBrains etc.). If your IDE needs some files ignored in the `.gitignore`, it should be added here to ensure any dotfiles your IDE generates when you open the repo are ignored, as these are usually placed in the root. 
 
 ## Contributors
 Here you can get links to the READMEs within everyone's folder.
